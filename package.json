@@ -1,0 +1,19 @@
+{
+  "name": "plugin.chatterbot",
+  "version": "1.0.0",
+  "description": "A chatbot plugin",
+  "scripts": {
+    "dev": "tsc -p . --watch"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/CastProject/plugin.chatterbot.git",
+  "author": "Eric Rabil <ericjrabil@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/mongoose": "^4.7.28",
+    "@types/node": "^8.0.53",
+    "cast": "CastProject/Cast#9afd3f5",
+    "ector": "^1.0.1"
+  }
+}
